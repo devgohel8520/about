@@ -1,0 +1,31 @@
+body {
+    background-color: #f4f4f4;
+    /*color: #f0a500;
+    color: #cf7500;*/
+    color: #000000;
+    margin: 1em;
+    letter-spacing: 2px;
+    font-family: "Sofia";
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    
+}
+
+.container{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.col
+{
+    margin-right: 10px;
+}
+
+.profile-pic{
+    height: 220px;
+    border: 1px inset #000000;
+}
