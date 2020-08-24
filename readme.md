@@ -1,1 +1,1 @@
-This is Devendra Gohel informative website. I am updating website.
+This is Devendra Gohel informative website. Working on CSS layout.
