@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-weight: 200px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: #e4e3e3;
+}
+
+.main{
+    
+}
+
+.header{
+    display: flex;
+    border-left: 1px solid #204051;
+    border-right: 1px solid #204051;
+    border-top: 1px solid #204051;
+    
+}
+.title{
+    background-color: #204051;
+    padding:10px;
+    width: 100%;
+}
+/* .title img{
+    
+} */
+
+.title span{
+    color: #fff;
+    font-size: 1rem;
+    vertical-align: top;
+    line-height: 35px;
+}
+
+.message{
+    padding:10px;
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 35px;
+    top:55px;
+
+}
+.option{
+    background-color: #84a9ac;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -3px;
+    display: flex;
+}
+
+.option .text{
+    flex-grow: 1;
+}
+.text-control{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+.text-control:focus,
+.text-control:focus{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+.option .btn{
+    flex-grow: 10px;
+    background-color: #3b6978;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*Thought*/
+.sms {
+    background-color:#fff;
+    padding:15px;
+    border-radius:30px;
+    min-width:40px;
+    max-width:220px;
+    margin:10px;
+    margin-bottom: 20px;
+    position:relative;
+    float: left;
+    clear: right;
+  }
+.sms:before,
+.sms:after {
+  content:"";
+  background-color:#fff;
+  display:block;
+  position:absolute;
+  border-radius: 50%;
+  z-index:-1;
+}
+.sms:before {
+  width:20px;
+  height:20px;
+  top:-10px;
+  left:20px;
+  box-shadow:-50px 30px 0 -12px #fff;
+}
+
+.time{
+    font-size: 10px;
+    padding-top:5px;
+    padding-left: 5px;
+}
+
+.time-right{
+    font-size: 10px;
+    padding-top:5px;
+    padding-right:5px;
+    text-align: right;
+}
+
+/*Thought*/
+.sms-right {
+    background-color:#fff;
+    padding:15px;
+    border-radius:30px;
+    min-width:40px;
+    max-width:220px;
+    margin:10px;
+    margin-bottom: 20px;
+    position:relative;
+    float: right;
+    clear: left;
+  }
+  .sms-right:before,
+  .sms-right:after {
+    content:"";
+    background-color:#fff;
+    display:block;
+    position:absolute;
+    border-radius: 50%;
+    z-index:-1;
+  }
+  .sms-right:before {
+    width:20px;
+    height:20px;
+    top:-10px;
+    right:20px;
+    box-shadow:-50px 30px 0 -12px #fff;
+  }
